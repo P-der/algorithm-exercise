@@ -1,7 +1,4 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
+// https://leetcode.cn/problems/longest-increasing-subsequence/
 // 动态规划的方法
 var lengthOfLIS = function(nums) {
     let dp = nums.map(i => 1);
